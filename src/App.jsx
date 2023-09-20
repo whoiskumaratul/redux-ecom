@@ -1,7 +1,15 @@
+//import User from "./components/User";
+
+import HomeContainer from './containers/HomeContainer'
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+{/*        
+       <User data={{name: 'atul ', age: 23}} /> */}
+        
+        <HomeContainer />
+
+    </div>
   )
 }
